@@ -105,10 +105,14 @@ body{
     padding: 7px 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-  
+    cursor: pointer;
+    transition:.4s;
+  }
+ .btn:hover{
+ 	background-color:#15a4fa;
 }
 .icon{
-	background-color: transparent;
+    background-color: transparent;
     border-radius: 3px;
     border-color:#15a4fa;
     color: white;
@@ -153,9 +157,13 @@ body{
 .s_single{
 	margin: 0 10px;
 	padding: 60px 0;
-    width: 31.33%;
+        width: 31.33%;
 	float: left;
 	text-align: center;
+	transition: .4s;
+}
+.s_single:hover{
+	transform: scale(.8);
 }
 .s_image{}
 .s_image img{}
@@ -287,6 +295,11 @@ text-align:center;
 	border-radius: 3px;
 	display: inline-block;
 	margin-left: 335px;
+	cursor: pointer;
+	transition: .4s;
+}
+.btn-group:hover{
+	background-color:#15a4fa;
 }
 /* stay with us end*/
 
